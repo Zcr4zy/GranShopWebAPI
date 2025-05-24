@@ -30,6 +30,7 @@ namespace GranShopAPI.Models
         [Required(ErrorMessage = "Insira o valor de venda do produto!")]
         public decimal ValorVenda { get; set; }
 
+        [Required]
         public bool Destaque { get; set; }
 
         [Required(ErrorMessage = "Insira a categoria do produto!")]
